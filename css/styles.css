@@ -351,8 +351,6 @@ img {
     color: #4d5ae5;
     width: 264px;
     margin-bottom: 16px;
-    position: relative;
-    left: 156px;
 }
 
 .footer-text {
@@ -362,6 +360,4 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    position: relative;
-    left: 156px;
 }
