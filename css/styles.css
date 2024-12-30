@@ -15,12 +15,16 @@ p {
     color: #434455;
 }
 
+img {
+    display: block;
+}
+
 .container {
     display: flex;
     width: 1158px;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .header {
@@ -29,6 +33,8 @@ p {
     flex-direction: row;
     justify-content: space-around;
     height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
 }
 
 .menu-nav-bar {
@@ -175,10 +181,11 @@ p {
 }
 
 .section-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #f4f4fd;
-    padding: 120px 156px;
     height: 732px;
-    margin-top: 56px;
 }
 
 .section-third-list {
