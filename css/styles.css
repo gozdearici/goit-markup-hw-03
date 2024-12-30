@@ -120,7 +120,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 600px;
-    width: 100%;
+    padding: 188px 0;
 }
 
 .main-text {
@@ -130,7 +130,7 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
 }
 
 .order-button {
@@ -142,10 +142,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }
 
 .order-button:hover,
@@ -156,6 +159,7 @@ img {
 .section-second {
     display: flex;
     justify-content: center;
+    padding: 120px 0;
 }
 
 .section-second-list {
@@ -163,7 +167,10 @@ img {
     flex-direction: row;
     gap: 24px;
     list-style: none;
-    margin: 120px 156px;
+}
+
+.section-second-list li {
+    width: calc((100% - 72px) / 4);
 }
 
 .section-second-header {
@@ -186,6 +193,7 @@ img {
     justify-content: center;
     background-color: #f4f4fd;
     height: 732px;
+    padding: 120px 0;
 }
 
 .section-third-list {
@@ -226,8 +234,7 @@ img {
 }
 
 .section-fourth {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .section-third .section-third-header,
@@ -238,6 +245,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .section-fourth-list {
@@ -284,7 +292,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    padding: 100px 0 100px 156px;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -305,9 +313,15 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
+    position: relative;
+    left: 156px;
 }
 
 .footer-logo {
+    display: inline-block;
     color: #4d5ae5;
+    margin-bottom: 16px;
+    position: relative;
+    left: 156px;
 }
