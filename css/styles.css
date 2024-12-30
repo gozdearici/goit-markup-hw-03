@@ -69,6 +69,11 @@ img {
     padding: 24px 0;
     list-style-type: none;
     text-decoration: none;
+    align-items: center;
+}
+
+.menu-section-list li:first-child {
+    padding: 24px 0;
 }
 
 .menu-section .sub-section {
@@ -130,6 +135,16 @@ img {
 
 .visually-hidden {
     display: none;
+    border: 0;
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap; 
+	width: 1px;
 }
 
 .main-text {
@@ -176,6 +191,10 @@ img {
     flex-direction: row;
     gap: 24px;
     list-style: none;
+}
+
+.section-second-list li:first-child {
+    width: calc((100% - 72px) / 4);
 }
 
 .feature {
@@ -226,6 +245,10 @@ img {
     border-radius: 0 0 4px 4px;
 }
 
+.person-information {
+    padding: 32px 0;
+}
+
 .person-profile-name {
     font-weight: 500;
     font-size: 20px;
@@ -241,6 +264,7 @@ img {
     letter-spacing: 0.02em;
     position: relative;
     top: -24px;
+    text-align: center;
 }
 
 .section-fourth {
@@ -271,11 +295,16 @@ img {
 }
 
 .portfolio-subtitle {
-    border: 1px solid #e7e9fc;
-    border-top: unset;
     text-align: left;
     cursor: pointer;
     max-width: 360px;
+}
+
+.card-information {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .portfolio-subtitle h3 {
@@ -302,6 +331,9 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+}
+
+.footer-section {
     padding: 100px 0;
 }
 
@@ -315,6 +347,10 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     width: 264px;
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+    left: 156px;
 }
 
 .footer-text {
@@ -324,14 +360,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    position: relative;
-    left: 156px;
-}
-
-.footer-logo {
-    display: inline-block;
-    color: #4d5ae5;
-    margin-bottom: 16px;
     position: relative;
     left: 156px;
 }
