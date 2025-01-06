@@ -222,7 +222,7 @@ img {
     gap: 24px;
 }
 
-.section-third-list > li {
+.section-third .container ul li {
     width: calc((100% - 72px) / 4);
 }
 
