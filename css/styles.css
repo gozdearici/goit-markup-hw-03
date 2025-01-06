@@ -185,13 +185,11 @@ img {
 
 .section-second {
     display: flex;
-    justify-content: center;
     padding: 120px 0;
 }
 
 .section-second-list {
     display: flex;
-    flex-direction: row;
     gap: 24px;
     list-style: none;
 }
@@ -226,8 +224,6 @@ img {
 
 .section-third-list {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 24px;
 }
 
