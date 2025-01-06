@@ -227,14 +227,11 @@ img {
     gap: 24px;
 }
 
-.section-third-list .person-profile {
+.section-third .person-profile {
     width: calc((100% - 72px) / 4);
 }
 
 .person-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #fff;
     cursor: pointer;
     list-style: none;
