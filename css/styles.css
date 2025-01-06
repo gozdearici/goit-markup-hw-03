@@ -221,6 +221,10 @@ img {
     gap: 24px;
 }
 
+.section-third-list > :first-child {
+    padding-left: unset;
+}
+
 .section-third-list li {
     width: calc((100% - 72px) / 4);
 }
