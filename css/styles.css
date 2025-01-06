@@ -235,7 +235,7 @@ img {
     gap: 24px;
 }
 
-.section-third-list .person-profile {
+.section-third-list li {
     width: calc((100% - 72px) / 4);
 }
 
