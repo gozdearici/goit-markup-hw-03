@@ -227,7 +227,7 @@ img {
     gap: 24px;
 }
 
-.section-third .person-profile {
+.section-third .person-profile:first-child {
     width: calc((100% - 72px) / 4);
 }
 
