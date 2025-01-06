@@ -343,16 +343,9 @@ img {
     margin-top: -8px;
 }
 
-.footer {
+.footer-container {
     background-color: #2e2f42;
-    height: 312px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-}
-
-.footer-section {
+    position: relative;
     padding: 100px 0;
 }
 
