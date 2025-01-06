@@ -190,11 +190,11 @@ img {
 .section-second-list {
     display: flex;
     gap: 24px;
-    list-style: none;
 }
 
 .section-second-list .feature {
     width: calc((100% - 72px) / 4);
+    list-style: none;
 }
 
 .section-second-header {
@@ -222,8 +222,9 @@ img {
     gap: 24px;
 }
 
-.container .section-third-list li {
-    flex-basis: calc((100% - 72px) / 4);
+.container .section-third-list .person-profile {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 
 .person-profile {
