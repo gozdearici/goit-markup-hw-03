@@ -233,14 +233,9 @@ img {
     flex-direction: row;
     justify-content: center;
     gap: 24px;
-    padding-left: unset;
 }
 
-.section-third-list li:first-child {
-    width: calc((100% - 72px) / 4);
-}
-
-.section-third-list li {
+.section-third-list .person-profile {
     width: calc((100% - 72px) / 4);
 }
 
@@ -343,7 +338,7 @@ img {
     margin-top: -8px;
 }
 
-.footer-container {
+.footer-section {
     background-color: #2e2f42;
     position: relative;
     padding: 100px 0;
