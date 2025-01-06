@@ -222,7 +222,7 @@ img {
     gap: 24px;
 }
 
-.container .section-third-list .person-profile {
+.person-profile {
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
