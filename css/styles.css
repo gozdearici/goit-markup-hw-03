@@ -366,6 +366,10 @@ img {
     margin-bottom: 16px;
 }
 
+.logo-second {
+    display: inline-block;
+}
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
