@@ -194,6 +194,7 @@ img {
 
 .section-second-list li {
     flex-basis: calc((100% - 72px) / 4);
+    list-style: none;
 }
 
 .section-second-header {
