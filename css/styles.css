@@ -192,7 +192,7 @@ img {
     gap: 24px;
 }
 
-.section-second-list .feature {
+.section-second-list li {
     width: calc((100% - 72px) / 4);
     list-style: none;
 }
