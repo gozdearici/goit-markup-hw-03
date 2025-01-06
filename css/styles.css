@@ -196,11 +196,7 @@ img {
     list-style: none;
 }
 
-.section-second-list li:first-child {
-    width: calc((100% - 72px) / 4);
-}
-
-.section-second-list li {
+.section-second-list .feature {
     width: calc((100% - 72px) / 4);
 }
 
@@ -235,7 +231,7 @@ img {
     gap: 24px;
 }
 
-.section-third-list li {
+.section-third-list .person-profile {
     width: calc((100% - 72px) / 4);
 }
 
