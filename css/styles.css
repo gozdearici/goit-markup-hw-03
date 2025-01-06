@@ -187,13 +187,13 @@ img {
     padding: 120px 0;
 }
 
+.section-second-list li {
+    width: calc((100% - 72px) / 4);
+}
+
 .section-second-list {
     display: flex;
     gap: 24px;
-}
-
-.section-second-list li {
-    width: calc((100% - 72px) / 4);
 }
 
 .section-second-header {
@@ -222,7 +222,7 @@ img {
 }
 
 .section-third-list li {
-    flex-basis: calc((100% - 72px) / 3);
+    width: calc((100% - 72px) / 4);
 }
 
 .person-profile {
@@ -232,7 +232,6 @@ img {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0 0 4px 4px;
-    max-width: 272px;
 }
 
 .person-information {
