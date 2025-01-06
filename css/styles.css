@@ -222,7 +222,7 @@ img {
 }
 
 .section-third-list li {
-    width: calc((100% - 72px) / 4);
+    width: calc((1158px - 72px) / 4);
 }
 
 .person-profile {
